@@ -8,18 +8,17 @@ body{
 }
 header{
 	width:100vw;
-	height:60px;
+	height:70px;
 	background-color:#011e29;
 	color:white;
-	display:flex;
-	justify-content:center;
-	align-items:center;
+	text-align:center;
+	padding:4px;
 	
 }
 li{
 	padding-left:20px
 }
-.picNews ,.latestNews{
+.pictorial-news-section ,.latest-news-section{
 	width:210px;
 	height:560px;
 	background:white;
@@ -28,8 +27,9 @@ li{
 	justify-content:center;
 		align-items:center;
 	flex-direction:column;
+	padding:2px;
 }
-.latestNews{
+.latest-news-section{
 	height:160px
 }
 .container{
